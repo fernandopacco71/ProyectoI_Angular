@@ -1,0 +1,33 @@
+.caja {
+  width: 500px;
+  background: rgba(0, 0, 0, .4);
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4%;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+  border-radius: 15px;
+  /* box-shadow: 7px 13px 37px black; */
+}
+  
+.caja-img {
+  border-radius: 50%;
+}
+  
+.caja h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  margin: 30px 0 20px;
+}
+.caja h2 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-bottom: 30px
+}
+  
+.caja p {
+  text-align: justify;
+}
