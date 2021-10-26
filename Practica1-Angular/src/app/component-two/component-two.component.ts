@@ -12,4 +12,10 @@ export class ComponentTwoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  calcularAreaCuadrado(lado:number):number{
+    return lado*lado;
+  }
+  Hallar:any={
+    lado:16,
+  }
 }

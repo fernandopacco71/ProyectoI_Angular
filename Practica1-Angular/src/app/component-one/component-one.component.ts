@@ -12,4 +12,8 @@ export class ComponentOneComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  figura:any={
+    tipo:'Cuadrado',
+    imagen:'assets/Cuadrado.svg.png'
+  }
 }
