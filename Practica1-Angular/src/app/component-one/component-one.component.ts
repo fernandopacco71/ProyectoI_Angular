@@ -13,7 +13,7 @@ export class ComponentOneComponent implements OnInit {
   }
 
   figura:any={
-    tipo:'Cuadrado',
-    imagen:'assets/Cuadrado.svg.png'
+    tipo:'Trapecio',
+    imagen:'assets/trapecio.png'
   }
 }

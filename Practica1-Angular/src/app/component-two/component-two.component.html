@@ -14,9 +14,20 @@
     <div style="text-align:center">
         <app-component-one></app-component-one>
     </div>
-    <div style="text-align:center">
-        <h4 style="color: #fff">Su lado del cuadrado es : <span style="color: blueviolet;">{{ Hallar.lado }}</span></h4>
-        <h4 style="color: #fff">Su área del cuadrado es : <span style="color:green;">{{ calcularAreaCuadrado(Hallar.lado) }}</span></h4>
+    <div style="text-align:center; color: #fff">
+        <h4>Su Base mayor del trapecio es : <span style="color: blueviolet;">{{ Hallar.bMayor }}</span></h4>
+        <h4>Su Base menor del trapecio es : <span style="color: blueviolet;">{{ Hallar.bMenor }}</span></h4>
+        <h4>Su altura del trapecio es : <span style="color: blueviolet;">{{ Hallar.altur }}</span></h4>
+        <h4>El área del trapecio es : <span style="color:green;">{{ calcularAreaCuadrado(Hallar.bMayor,Hallar.bMenor,Hallar.altur) }}</span></h4>
+
+        <div>
+            <label>Ingrese su Base Mayor:</label><input type="number" [(ngModel)]="Hallar.bMayor">
+            <br>
+            <label>Ingrese su Base Menor:</label><input type="number" [(ngModel)]="Hallar.bMenor">
+            <br>
+            <label style="padding:20px">Ingrese su Altura:</label><input type="number" [(ngModel)]="Hallar.altur">
+        </div>
+        
         <h2 style="color: #fff">..................FIN..................</h2>
     </div>
     
