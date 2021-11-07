@@ -10,7 +10,7 @@ export class ComponentTwoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    alert("BIENBENIDOS A MI PAGINA WEB Att. LuisFernando");
+    alert('Bienbenidos a mi pagina web');
   }
 
   calcularAreaCuadrado(baseMayor:number,baseMenor:number,altura:number):number{

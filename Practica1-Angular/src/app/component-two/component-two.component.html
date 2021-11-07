@@ -30,6 +30,12 @@
         
         <h2 style="color: #fff">..................FIN..................</h2>
     </div>
-    
+
+    <hr>
+    <h1 style="color: #fff; text-align: center;">Mostrando el contenido del componente uno</h1>
+    <button (click)="mostrar = !mostrar" style="background-color: aqua; width:150px; height:40px; mousemove:pointer">
+        {{mostrar ? 'Ocultar':'Mostrar'}}
+    </button>
+    <app-component-one *ngIf="mostrar"></app-component-one>
 </body>
 </html>
