@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>OneComponent</title>
 </head>
 <body>
@@ -33,9 +34,12 @@
 
     <hr>
     <h1 style="color: #fff; text-align: center;">Mostrando el contenido del componente uno</h1>
-    <button (click)="mostrar = !mostrar" style="background-color: aqua; width:150px; height:40px; mousemove:pointer">
+    <button (click)="mostrar = !mostrar" style="background-color: aqua; width:150px; height:40px; ">
         {{mostrar ? 'Ocultar':'Mostrar'}}
     </button>
     <app-component-one *ngIf="mostrar"></app-component-one>
+    <hr>
+    <h1 style="color: #fff">Mostrando el tercer componente</h1>
+    <app-menu-nav></app-menu-nav>
 </body>
 </html>
