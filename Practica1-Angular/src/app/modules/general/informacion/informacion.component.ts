@@ -11,5 +11,5 @@ export class InformacionComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  informacion="Informacion";
 }

@@ -11,5 +11,6 @@ export class NotFoundComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  msm="este es el modulo no-encontrado";
 
 }

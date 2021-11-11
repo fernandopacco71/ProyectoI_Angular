@@ -12,4 +12,5 @@ export class ContactosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  mss="Contactos";
 }
