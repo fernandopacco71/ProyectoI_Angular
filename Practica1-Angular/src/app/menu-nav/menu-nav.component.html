@@ -16,20 +16,35 @@
           </section>
           <nav>
             <ul class="nav">
-              <li><a routerLink="/">Incio</a></li>
+              <li ><a routerLink="/">Incio</a></li>
               <li><a routerLink="/about">Informacion</a></li>
               <li><a routerLink="/contact">Contactos</a></li>
               <li><a routerLink="/signin">Signin</a></li>
             </ul>
           </nav>
         </header>
-      
+      <style>
+        li {
+          list-style: none;
+          vertical-align: top;
+          display: inline;
+          font-size: 1.2em;
+          padding: 0.5em;
+        }
+        a{
+          color: rgb(233, 211, 13); text-decoration: none;
+          
+        }
+        ul{
+          
+        }
+      </style>
         <main>
           <router-outlet></router-outlet>
         </main>
       
         <footer>
-          <a href="https://www.ganatan.com/">&copy; 2021 - www.ganatan.com</a>
+          <a href="http://aulavirtual.icit.edu.pe/" style="color: #fff; text-decoration: none;">&copy; 2021 - www.cimac_Icit.com</a>
         </footer>
     
     </div>
